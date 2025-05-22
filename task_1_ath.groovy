@@ -42,9 +42,9 @@ pipeline {
       }
     }
 
-    stage('Deploy to Production') {
+    stage('final') {
       steps {
-        echo 'Deploying to production environment (AWS EC2)...'
+        echo 'this is my output...'
       }
     }
   }
