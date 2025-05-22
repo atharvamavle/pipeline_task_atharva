@@ -47,5 +47,8 @@ pipeline {
         echo 'Deploying to production environment (AWS EC2)...'
       }
     }
+    stage('Final saga') {
+      steps {
+        echo 'task done...'
   }
 }
